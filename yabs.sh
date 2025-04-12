@@ -831,12 +831,10 @@ if [ -z "$SKIP_IPERF" ]; then
 	#   4. location and advertised speed link of the iperf server
 	#   5. network modes supported by the iperf server (IPv4 = IPv4-only, IPv4|IPv6 = IPv4 + IPv6, etc.)
 	IPERF_LOCS=( \
-		"lon.speedtest.clouvider.net" "5200-5209" "Clouvider" "London, UK (10G)" "IPv4|IPv6" \
-		"iperf-ams-nl.eranium.net" "5201-5210" "Eranium" "Amsterdam, NL (100G)" "IPv4|IPv6" \
-		#"speedtest.extra.telia.fi" "5201-5208" "Telia" "Helsinki, FI (10G)" "IPv4"
-		# AFR placeholder
-		"speedtest.uztelecom.uz" "5200-5209" "Uztelecom" "Tashkent, UZ (10G)" "IPv4|IPv6" \
-		"speedtest.sin1.sg.leaseweb.net" "5201-5210" "Leaseweb" "Singapore, SG (10G)" "IPv4|IPv6" \
+		"st.barnaul.ertelecom.ru" "5200-5209" "Clouvider" "London, UK (10G)" "IPv4|IPv6" \
+		"st.volgograd.ertelecom.ru" "5201-5210" "Eranium" "Amsterdam, NL (100G)" "IPv4|IPv6" \
+		"st.ekat.ertelecom.ru" "5200-5209" "Uztelecom" "Tashkent, UZ (10G)" "IPv4|IPv6" \
+		"st.nsk.ertelecom.ru" "5201-5210" "Leaseweb" "Singapore, SG (10G)" "IPv4|IPv6" \
 		"la.speedtest.clouvider.net" "5200-5209" "Clouvider" "Los Angeles, CA, US (10G)" "IPv4|IPv6" \
 		"speedtest.nyc1.us.leaseweb.net" "5201-5210" "Leaseweb" "NYC, NY, US (10G)" "IPv4|IPv6" \
 		"speedtest.sao1.edgoo.net" "9204-9240" "Edgoo" "Sao Paulo, BR (1G)" "IPv4|IPv6"
